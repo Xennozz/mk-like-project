@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://berd07evqaa03"]
 
+[ext_resource type="PackedScene" uid="uid://b7u5rn57umkos" path="res://kart.tscn" id="1_ig7tw"]
+
 [sub_resource type="BoxMesh" id="BoxMesh_mjepr"]
 size = Vector3(60, 2, 60)
 
@@ -17,9 +19,12 @@ mesh = SubResource("BoxMesh_mjepr")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=487379473]
 shape = SubResource("BoxShape3D_6r7hc")
 
+[node name="Kart" parent="." unique_id=106457058 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1380663, 2, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Kart" unique_id=1972730513]
+transform = Transform3D(1, 0, 0, 0, 0.8292747, 0.5588411, 0, -0.5588411, 0.8292747, 0, 1.13655, 0.9038503)
+
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1727511453]
 transform = Transform3D(1, 0, 0, 0, -0.14262892, 0.98977625, 0, -0.98977625, -0.14262892, 0, 15.642, 4.928)
 shadow_enabled = true
-
-[node name="Camera3D" type="Camera3D" parent="." unique_id=1972730513]
-transform = Transform3D(1, 0, 0, 0, 0.9363318, 0.3511164, 0, -0.3511164, 0.9363318, 0, 3.211081, 6.012742)
