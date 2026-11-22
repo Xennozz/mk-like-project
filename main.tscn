@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://berd07evqaa03"]
 
 [ext_resource type="PackedScene" uid="uid://b7u5rn57umkos" path="res://kart.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://ctkjvdfwkuvv3" path="res://playground.tscn" id="2_0xm2m"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_mjepr"]
 size = Vector3(60, 2, 60)
@@ -23,8 +24,10 @@ shape = SubResource("BoxShape3D_6r7hc")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1380663, 2, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Kart" unique_id=1972730513]
-transform = Transform3D(1, 0, 0, 0, 0.8292747, 0.5588411, 0, -0.5588411, 0.8292747, 0, 1.13655, 0.9038503)
+transform = Transform3D(1, 0, 0, 0, 0.7976956, 0.6030603, 0, -0.6030603, 0.7976956, 0, 1.5771708, 1.3510509)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1727511453]
 transform = Transform3D(1, 0, 0, 0, -0.14262892, 0.98977625, 0, -0.98977625, -0.14262892, 0, 15.642, 4.928)
 shadow_enabled = true
+
+[node name="Playground" parent="." unique_id=593204105 instance=ExtResource("2_0xm2m")]

@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://ctkjvdfwkuvv3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ig7tw"]
+albedo_color = Color(1, 1, 0.12156863, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_5imyc"]
+material = SubResource("StandardMaterial3D_ig7tw")
+height = 1.0
+
+[node name="Playground" type="Node3D" unique_id=593204105]
+
+[node name="Cylinders" type="Node3D" parent="." unique_id=237524448]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cylinders" unique_id=359481808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6621485, 0.5, -4.841561)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Cylinders" unique_id=661476160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.93536985, 0.5, -6.452293)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Cylinders" unique_id=1037862009]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09661329, 0.5, -7.5988293)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="Cylinders" unique_id=1253290783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3947304, 0.5, -8.523146)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="Cylinders" unique_id=2078862298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8984222, 0.5, -9.393707)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="Cylinders" unique_id=215208413]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5095987, 0.5, -10.02679)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="Cylinders" unique_id=655516541]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.113779, 0.5, -10.471257)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="Cylinders" unique_id=778238732]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.685566, 0.5, -5.0694304)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D9" type="MeshInstance3D" parent="Cylinders" unique_id=1902700360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.04483, 0.5, -6.368783)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D10" type="MeshInstance3D" parent="Cylinders" unique_id=546790300]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.0383453, 0.5, -7.9370894)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D11" type="MeshInstance3D" parent="Cylinders" unique_id=1157962964]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5428941, 0.5, -9.361307)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D12" type="MeshInstance3D" parent="Cylinders" unique_id=84637684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2084923, 0.5, -10.92541)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D13" type="MeshInstance3D" parent="Cylinders" unique_id=84606532]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.116652966, 0.5, -12.342584)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D14" type="MeshInstance3D" parent="Cylinders" unique_id=962192349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6282275, 0.5, -13.663919)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D15" type="MeshInstance3D" parent="Cylinders" unique_id=2037383556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.3354692, 0.5, -14.55442)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D16" type="MeshInstance3D" parent="Cylinders" unique_id=971396115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5200157, 0.5, -15.159491)
+mesh = SubResource("CylinderMesh_5imyc")
+
+[node name="MeshInstance3D17" type="MeshInstance3D" parent="Cylinders" unique_id=434738509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5200157, 0.5, -15.159491)
+mesh = SubResource("CylinderMesh_5imyc")
